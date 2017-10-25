@@ -17,3 +17,15 @@ function divide(a, b){
 function inc(n){
   return ++n
 }
+
+function dec(n){
+  return --n
+}
+
+function makeInt(n, base){
+  returns parseInt(n, base)
+}
+
+function preserveDecimal(n){
+  return parseFloat(n)
+}
